@@ -1,0 +1,35 @@
+.blueboxcontent{
+    border:3px solid #fff;
+    padding:15px}
+    
+    .bluebox{
+    background:#d7e7f5;
+    border:1px solid #bbb;
+    color:#5e6984;
+    border-color:#aacee6;
+    width:500px;
+    
+}
+    .btnn{
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    .btnn:hover {
+      background-color: green;
+    }
+    p{
+        text-align: center;
+        font-weight: 700;
+        font-size: x-large;
+        text-decoration:none;
+        background-color: #FFCC66;
+    }
+    img{
+        float:right;
+        width:50%;
+    }

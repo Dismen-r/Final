@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+#order-dashboard{
+  background-color: rgba(0, 47, 78, 0.671);
+  background-position-x: fit-content;
+  background-position-y: fit-content;
+  text-align: center;
+  text-decoration-line: underline;
+  text-shadow: 0 0 3px #d1d1d1, 0 0 5px #636363;
+
+
+}
+
+#b-img{
+  width: screen;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+#order-table{
+  position: relative;
+  width:auto;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#figure {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 50px;
+  margin-left: 100px;
+}
+#ordernavbarbrand{
+  color: aquamarine;
+}
+#ordernavtitle{
+  color:white;
+  text-shadow: 2px 1px burlywood;
+  text-emphasis-color: grey;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+}

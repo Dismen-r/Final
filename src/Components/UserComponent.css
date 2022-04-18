@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+    font-size: large;
+    padding: auto;
+    justify-content: center;
+  }
+
+.card-header{
+    font-size: x-large;
+    text-decoration: solid;
+}
+
+.card-text{
+    color: white;
+}
+
+.form-control:valid{
+    text-align: center;
+    justify-content: center;
+    background-color: #980b6e;
+    width:90%;
+    color: white;
+    outline: #980b6e;
+}
+
+#cus-bg{
+    background-color: #980b6e;
+    color: white;
+    border-radius: 2%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.card-title{
+    color: white;
+}
+  
+h5{
+    position:relative;
+}
+
+#cus-up{
+    width: auto;
+}
+
+#misc{
+    background-color: #ffffff;
+    width: 50%;
+    height: 50%;
+}
+
+#cust-bg{
+    background-color: #680d4d;
+    border-radius: 2%;
+    width: 90%;
+}
+
+#custo-bg{
+    background-color: #581845;
+    border-radius: 2%;
+    width: 87%;
+}
+
+#cu-bg{
+    background-color: #82075d;
+    border-radius: 2%;
+}
